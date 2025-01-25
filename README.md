@@ -47,11 +47,12 @@ En arquitecturas de microservicios, es esencial gestionar eficientemente la comu
 1.4 Al ejecutar el proyecto localhost:8761 se mostrara un pagina indicando que el servidor de eureka esta funcionando.En este caso no existe ningún microservicio funcionando entonces mostrara vacío.
 ![image](https://github.com/user-attachments/assets/0b09356b-53b6-4d46-8335-10bba2f80661)
 
-### **Paso 2: Crear el proyecto Gateway
+## **Paso 2: Crear el proyecto Gateway
 ![image](https://github.com/user-attachments/assets/a826d736-81d1-446d-b706-901d0d7ffc73)
 
 2.1 Configurar el archivo application.yml del Gateway:
 ![image](https://github.com/user-attachments/assets/d85bb5b3-5111-4473-a326-5ee3b1c4e8e4)
+
 Este archivo application.yml configura un Spring Cloud Gateway, que actúa como un API Gateway para enrutar solicitudes a diferentes microservicios.
 ✅ Expone el API Gateway en el puerto 8080
 ✅ Registra el Gateway en Eureka.
@@ -73,6 +74,7 @@ Los microservicios que se ejecutaran como clientes de eureka. Se debe configurar
 
 3.4 Agregamos Un Controller a Students 
 ![image](https://github.com/user-attachments/assets/d3ddc102-73b7-4e45-8715-8e1ed855c436)
+
 ¿Qué hace este StudentController?
 ✅ Expone un endpoint GET en /students.
 ✅ Devuelve "estudiantes" como respuesta cuando se accede a la ruta.
@@ -87,12 +89,13 @@ Los microservicios que se ejecutaran como clientes de eureka. Se debe configurar
 
 3.7 Agregamos Un Controller a Grades 
 ![image](https://github.com/user-attachments/assets/a9c6ab19-3ed5-442f-83b6-d9340ce0f13a)
+
 ¿Qué hace este GradesController?
 ✅ Expone un endpoint GET en /grades.
 ✅ Devuelve "listado de calificaciones" como respuesta cuando se accede a la ruta.
 ✅ Es un controlador REST en Spring Boot con Kotlin.
 
-### **Paso 4 Comprobar registro en Eureka server
+## **Paso 4 Comprobar registro en Eureka server
 
 4.1 Actualizar la url de eureka server localhost:8761 donde se mostrar el nuevo registro, mas bien los registros STUDENTS-MS,GRADES-MS y GATEWAY
 ![image](https://github.com/user-attachments/assets/e57dfc73-8f40-49ff-a7f6-64418f347973)
