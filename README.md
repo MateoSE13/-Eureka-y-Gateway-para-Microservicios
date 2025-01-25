@@ -116,12 +116,12 @@ Los microservicios que se ejecutarán como clientes de Eureka. Se debe configura
 **GRADES**  
    ![image](https://github.com/user-attachments/assets/305d9d69-daa7-46f0-b79c-6beb1e89ed78)
 
-### **Paso 9: Conclusiones**
+### **Paso 9. Conclusiones**
 La integración de Spring Cloud Gateway, Eureka y microservicios en Kotlin permite construir una arquitectura altamente flexible, escalable y modular.  
 La centralización de rutas mediante el Gateway optimiza la gestión del tráfico y mejora la seguridad, mientras que Eureka facilita el descubrimiento dinámico de servicios, eliminando configuraciones manuales.  
 Esta combinación no solo simplifica la administración del sistema, sino que también mejora la eficiencia en el desarrollo, despliegue y mantenimiento de aplicaciones distribuidas, garantizando mayor resiliencia y disponibilidad.
 
-### **Paso 10: Bibliografía**
+### **Paso 10. Bibliografía**
 - Fehling, C., Leymann, F., Retter, R., Schupeck, W., & Arbitter, P. (2014). *Cloud Computing Patterns: Fundamentals to Design, Build, and Manage Cloud Applications*. Springer.
 - Kane, A. (2024). *Docker in Action, Second Edition*. Manning Publications.
 - Merkel, D. (2014). *Docker: Lightweight Linux Containers for Consistent Development and Deployment*. Linux Journal, 2014(239), 2.
