@@ -121,10 +121,6 @@ La integración de Spring Cloud Gateway, Eureka y microservicios en Kotlin permi
 La centralización de rutas mediante el Gateway optimiza la gestión del tráfico y mejora la seguridad, mientras que Eureka facilita el descubrimiento dinámico de servicios, eliminando configuraciones manuales.  
 Esta combinación no solo simplifica la administración del sistema, sino que también mejora la eficiencia en el desarrollo, despliegue y mantenimiento de aplicaciones distribuidas, garantizando mayor resiliencia y disponibilidad.
 
-### **Paso 10. Bibliografía**
-- Fehling, C., Leymann, F., Retter, R., Schupeck, W., & Arbitter, P. (2014). *Cloud Computing Patterns: Fundamentals to Design, Build, and Manage Cloud Applications*. Springer.
-- Kane, A. (2024). *Docker in Action, Second Edition*. Manning Publications.
-- Merkel, D. (2014). *Docker: Lightweight Linux Containers for Consistent Development and Deployment*. Linux Journal, 2014(239), 2.
-- Pahl, C., & Brogi, A. (2016). *Cloud Container Technologies: A State-of-the-Art Review*. IEEE Transactions on Cloud Computing, 5(4), 667-678.
-- Richardson, C. (2019). *Microservices Patterns: With Examples in Java*. Manning Publications.
-- Walls, C. (2021). *Spring in Action, Sixth Edition*. Manning Publications.
+### 10. Bibliografía
+- **Gateway: Qué es y para qué sirve**. Alai Secure. [https://alaisecure.pe/glosario/gateway-que-es-y-para-que-sirve/](https://alaisecure.pe/glosario/gateway-que-es-y-para-que-sirve/)
+- **Microservicios**. Amazon Web Services. [https://aws.amazon.com/es/microservices/](https://aws.amazon.com/es/microservices/)
